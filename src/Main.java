@@ -1,16 +1,13 @@
 public class Main {
     public static void main(String args[]){
 
-        int x = 3;
-        int y;
-        System.out.println(x++);
-        System.out.println(++x);
-        System.out.println(x);
+    int[] tablica = {2,3,4,6,8,10};
+//    System.out.println(tablica[2]);
 
-        y= x++;
-        System.out.println(y);
-        y= ++x;
-        System.out.println(y);
-        System.out.println(++y);
+    for (int i = 0; i<tablica.length; i++){
+        System.out.println(tablica[i]);
+
+    }
+
     }
 }
